@@ -1,0 +1,24 @@
+{
+  "name": "s3-auth-url",
+  "version": "0.0.0",
+  "author": "Fernando Coelho",
+  "license": "MIT",
+  "keywords": [
+    "s3",
+    "auth",
+    "aws",
+    "url"
+  ],
+  "description": "Authenticate S3 using only a URL",
+  "main": "./src/index.cjs",
+  "types": "./src/index.d.cts",
+  "typesVersions": {
+    "*": {
+      ".": [
+        "./src/index.d.cts"
+      ]
+    }
+  },
+  "type": "commonjs",
+  "packageManager": "pnpm@10.4.1"
+}
