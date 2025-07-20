@@ -4,7 +4,7 @@
  * Build your S3 URL like this:
  * @link https://endpoint.com/bucket_name?access_key=example&secret_key=example&region=example
  */
-export class S3Url {
+class S3Url {
     constructor(url) {
         const urlObj = this.createUrl(url);
 
@@ -61,3 +61,5 @@ export class S3Url {
         return this.name;
     }
 }
+
+module.exports = { S3Url }
